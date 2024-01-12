@@ -26,7 +26,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
 
-    'for_hw192.apps.ForHw192Config',
+    'for_main19.2.apps.ForHw192Config',
 ]
 
 MIDDLEWARE = [
@@ -39,7 +39,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'hw192.urls'
+ROOT_URLCONF = 'main19.2.urls'
 
 TEMPLATES = [
     {
@@ -57,7 +57,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'hw192.wsgi.application'
+WSGI_APPLICATION = 'main19.2.wsgi.application'
 
 
 # Database
